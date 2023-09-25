@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: serif;
+  text-transform: capitalize;}
+
+
+
+.title1{text-align: center;}
+.line1{width: 100px; height: 3px; background-color:  rgb(20, 59, 78); margin: auto; margin-top: 10px;}
+.header-sec2{margin-top: 30px; width: 100%; height: 100px;}
+.header-sec2:hover .line1{transform: scaleX(1.5); transition: 1s;}
+
+  /* /////////////////////////////////////////////////////////////////// sec5////////////////////////////////////////////////// */
+
+  .sec5-sections {width: 80%; 
+   display: grid;
+    grid-template-columns: 13% 13% 10% 10%; 
+    margin-left: 450px; 
+  list-style: none; }
+  .sec5-items{width: 90%; margin: auto; 
+    display: grid; grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 350px 350px;
+    row-gap: 100px;
+    column-gap: 50px;
+   }
+   .sec5-content{width: 100%; height:420px;margin-top: 30px; }
+  .item-img img{width: 300px;}
+  .sec5-item{position: relative; }
+
+  .sec5-overlay{
+  visibility: hidden;
+        position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scalex(0);
+    
+    background-size: cover;
+    transition-duration:  0.3s;
+
+ }
+
+.sec5-overlay i{float: left; font-size: 30px;  background-color:rgb(255, 255, 255) ;}
+.sec5-icons{ }
+.sec5-content:hover .sec5-overlay{
+  visibility: visible;  
+transform: scalex(1);
+   width: 100%;
+    height: 100%; 
+  }
+
+    .sec5-item-info ul li{float: left; list-style: none; }
+    .sec5-item-info ul{display: inline-block;}
+    .sec5-item-info{padding: 20px;}
+.sec5-item-info p{line-height: 35px;}
+.p2{font-weight: bold; font-size: larger;}
+.sec5-content:hover{ box-shadow: 0px 14px 14px 0px rgba(6, 68, 68, 0.2)}
+ .btn{
+width: 100px;
+height: 30px;
+ }
+ .d-price{display: flex;}
+  .btn2{width: 120px;
+    height: 30px;
+    display: none;
+    border: 1px solid  rgb(6, 6, 68);
+   background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+  }
+  .btn2:hover{background-color: rgb(6, 6, 68); ; color: white;}
+  .cs{width: 500px; margin: auto ; margin-top: 150px;  }
+  .cs{border: 1px solid  rgb(6, 6, 68); border-radius: 10px;}
+
+.cs2{padding: 15px;}
+
+   /* /////////////////////////////////////////////////////////////////// sec5////////////////////////////////////////////////// */
